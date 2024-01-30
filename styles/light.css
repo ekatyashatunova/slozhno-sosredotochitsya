@@ -7,13 +7,14 @@
   --accent-heading: #353430;
   --border-color: #353430;
   --br-color-hover: rgba(50, 49, 45, 0.40);
+  --color-tittle_decor: #353430;
 }/*
   Специально для светлой темы при наличии класса.
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
 
-.page.theme_light {
+.page .theme_light {
   --background-image: url(../images/cover-image-light.png);
   --background-color: #FFF1F7;
   --color_title:  #FFC2E6;
@@ -42,3 +43,9 @@
     --br-color-hover: rgba(50, 49, 45, 0.40);
   }
 }
+
+.theme_light .rec {
+  display: none;
+}
+
+
