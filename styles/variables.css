@@ -1,24 +1,11 @@
 :root {
-  --main-text: "IBM Plex Mono";
+  --main-text: "IBM Plex Mono", monospace, serif;
   --font-weight-bold: 700;
   --font-weight-regular: 400;
   --font-size: 18px;
-
-
 }
 
-@media (min-width: 768px) {
-  :root {
-    --font-size-clamp:
-  }
-}
 
-@media (min-width: 1024px) {
-  :root {
-    --font-size-clamp:
-  }
-}
-/*
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
