@@ -7,6 +7,7 @@
   --accent-heading: #FF0070;
   --border-color: #FF0070;
   --br-color-hover: rgba(255, 0, 112, 0.40);
+  --color-tittle_decor: #000028;
 }
 /*
   Специально для тёмной темы при наличии класса,
@@ -14,7 +15,7 @@
   переключая тему
 */
 
-.page.theme_dark {
+.page .theme_dark {
   --background-image: url(../images/cover-image-dark.png);
   --background-color: #000028;
   --color_title: #DB00FF;
@@ -39,6 +40,5 @@
     --accent-heading: #FF0070;
     --border-color: #FF0070;
     --br-color-hover: rgba(255, 0, 112, 0.40);
-
   }
 }
