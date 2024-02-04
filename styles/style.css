@@ -1,4 +1,4 @@
-/* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+
 .page {
   background-image: var(--background-image);
   /*background-color: var(--background-color);*/
@@ -19,6 +19,7 @@
   grid-template-rows: min-content 1fr 1fr;
   margin-block-end: 60px;
   padding-right: 20px;
+  padding-top: 20px;
 }
 
 .decorated-zone {
@@ -62,7 +63,7 @@
   border-radius: 50%;
   color: var(--accent-color);
   right: 9px;
-  top: 28px;
+  top: 8px;
 }
 
 .rec:after {
@@ -73,7 +74,7 @@
   text-transform: uppercase;
   font-weight: var(--font-weight-regular);
   line-height: 25px;
-  top: 20px;
+  top: 0px;
   right: 28px;
 }
 
@@ -320,7 +321,7 @@
 @media (max-width: 768px) {
   .header,
   .footer {
-    min-height: 1024px;
+      min-height: 1024px;
   }
 
   .header__theme-menu-list {
@@ -331,14 +332,14 @@
   }
 
   .header__theme-menu {
-    align-self: center;
-    justify-self: flex-end;
-    margin-top: 87px;
+      align-self: center;
+      justify-self: flex-end;
+      margin-top: 87px;
   }
 
   .title {
-    align-self: center;
-    margin-block-end: 52px;
+      align-self: center;
+      margin-block-end: 82px;
   }
 
   .title_paragraph {
@@ -364,87 +365,87 @@
   }
 
   .footer_title {
-    margin-block-start: 20px;
-    margin-block-end: 20px;
+      margin-block-start: 20px;
+      margin-block-end: 20px;
   }
 }
 
 @media (max-width: 375px) {
   .header {
-   margin-block-end: 40px;
-   min-height: 668px;
-   height: 100vh;
-   padding-left: 10px;
-   padding-right: 10px;
+      margin-block-end: 40px;
+      min-height: 668px;
+      height: 100vh;
+      padding-left: 10px;
+      padding-right: 10px;
   }
 
   .decorated-zone:before {
-    top: 10px;
-    right: 10px;
+      top: 10px;
+      right: 10px;
   }
-  
+
   .decorated-zone:after {
-    bottom: 10px;
-    left: 10px;
+      bottom: 10px;
+      left: 10px;
   }
 
   .rec:before {
-    right: 9px;
-    top: 18px;
-  }
-  
-  .rec:after {
-    top: 10px;
-    right: 28px;
+      right: 9px;
+      top: 18px;
   }
 
-.header__theme-menu {
-  align-self: flex-start;
-  margin-block-start: 55.5px;
-}
+  .rec:after {
+      top: 10px;
+      right: 28px;
+  }
+
+  .header__theme-menu {
+      align-self: flex-start;
+      margin-block-start: 55.5px;
+  }
 
   .title {
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+      font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .title_paragraph {
-    margin-block-end: 66px;
-    max-width: 355px;
+      margin-block-end: 66px;
+      max-width: 355px;
   }
 
   .content_why {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-block-end: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-block-end: 50px;
   }
 
   .content_card {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
   }
 
   .content_what {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-block-end: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-block-end: 50px;
   }
 
   .content_how {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-block-end: 50px;
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-block-end: 50px;
   }
 
   .content_heading-why,
   .content_heading-what,
   .content_heading-how {
-    max-width: 355px;
+      max-width: 355px;
   }
 
   .img_gallery {
@@ -454,21 +455,13 @@
   }
 
   .gallery {
-    gap: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-block-end: 40px;
+      gap: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-block-end: 40px;
   }
 
   .footer {
-    min-height: 667px;
+      min-height: 667px;
   }
 }
-
-
-
-
-
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
-
