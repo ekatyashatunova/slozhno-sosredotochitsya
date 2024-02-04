@@ -1,7 +1,7 @@
 
 .page {
-  background-image: var(--background-image);
-  /*background-color: var(--background-color);*/
+  /*background-image: var(--background-image);*/
+  background-color: var(--background-color);
   background-attachment: fixed;
   font-family: var(--main-text, serif);
   font-size: var(--font-size);
@@ -12,7 +12,7 @@
 
 .header {
   position: relative;
-  /*background-image: var(--background-image);*/
+  background-image: var(--background-image);
   height: 100vh;
   min-height: 768px;
   display: grid;
