@@ -8,11 +8,8 @@
   --border-color: #353430;
   --br-color-hover: rgba(50, 49, 45, 0.40);
   --color-tittle_decor: #353430;
-}/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+  --focus-color: #353430;
+}
 
 .page .theme_light {
   --background-image: url(../images/cover-image-light.png);
@@ -24,10 +21,8 @@
   --accent-heading: #353430;
   --border-color: #353430;
   --br-color-hover: rgba(50, 49, 45, 0.40);
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --color-tittle_decor: #353430;
+  --focus-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -47,5 +42,10 @@
 .theme_light .rec {
   display: none;
 }
+
+
+
+
+
 
 
