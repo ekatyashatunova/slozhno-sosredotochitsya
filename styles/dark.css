@@ -7,13 +7,9 @@
   --accent-heading: #FF0070;
   --border-color: #FF0070;
   --br-color-hover: rgba(255, 0, 112, 0.40);
+  --focus-color: #F1B2CE;
   --color-tittle_decor: #000028;
 }
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
 .page .theme_dark {
   --background-image: url(../images/cover-image-dark.png);
@@ -24,21 +20,9 @@
   --accent-heading: #FF0070;
   --border-color: #FF0070;
   --br-color-hover: rgba(255, 0, 112, 0.40);
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --focus-color: #F1B2CE;
+  --color-tittle_decor: #000028;
+  --block: flex;
 }
+  
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-image: url(../images/cover-image-dark.png);
-    --background-color: #000028;
-    --color_title: #DB00FF;
-    --accent-color: #FF0070;
-    --text-color: #F1B2CE;
-    --accent-heading: #FF0070;
-    --border-color: #FF0070;
-    --br-color-hover: rgba(255, 0, 112, 0.40);
-  }
-}
