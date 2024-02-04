@@ -1,6 +1,5 @@
 
 .page {
-  /*background-image: var(--background-image);*/
   background-color: var(--background-color);
   background-attachment: fixed;
   font-family: var(--main-text, serif);
