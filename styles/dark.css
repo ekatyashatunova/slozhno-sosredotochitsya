@@ -3,25 +3,45 @@
   --background-color: #000028;
   --color_title: #db00ff;
   --accent-color: #ff0070;
+  --text-color_title: #000028;
   --text-color: #f1b2ce;
   --accent-heading: #ff0070;
   --border-color: #ff0070;
   --br-color-hover: rgba(255, 0, 112, 0.4);
   --focus-color: #f1b2ce;
-  --color-tittle_decor: #000028;
+  /*--color-tittle_decor: #000028;*/
+  --text_button: #ff0070;
 }
 
-.page .theme_dark {
+.theme_dark .rec:before {
+  display: block;
+}
+
+.theme_dark .rec:after {
+  display: block;
+}
+
+.page.theme_dark {
   --background-image: url(../images/cover-image-dark.png);
   --background-color: #000028;
   --color_title: #db00ff;
   --accent-color: #ff0070;
+  --text-color_title: #000028;
   --text-color: #f1b2ce;
   --accent-heading: #ff0070;
   --border-color: #ff0070;
   --br-color-hover: rgba(255, 0, 112, 0.4);
   --focus-color: #f1b2ce;
-  --color-tittle_decor: #000028;
+  /*--color-tittle_decor: #000028;*/
+  --text_button: #ff0070;
+}
+
+.theme_dark .rec:before {
+  display: block;
+}
+
+.theme_dark .rec:after {
+  display: block;
 }
 
 
