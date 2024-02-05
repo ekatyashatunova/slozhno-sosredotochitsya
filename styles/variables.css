@@ -7,6 +7,7 @@
   --background-color: #000028;
   --color_title: #db00ff;
   --accent-color: #ff0070;
+  --text-color_title: #000028;
   --text-color: #f1b2ce;
   --accent-heading: #ff0070;
   --border-color: #ff0070;
@@ -15,6 +16,21 @@
   --color-tittle_decor: #000028;
 }
 
+.theme_light .rec:before {
+  display: none;
+}
+
+.theme_light .rec:after {
+  display: none;
+}
+
+.theme_auto .rec:before {
+  display: none;
+}
+
+.theme_auto .rec:after {
+  display: none;
+}
 
 
 
