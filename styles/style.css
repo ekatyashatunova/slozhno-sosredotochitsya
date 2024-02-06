@@ -342,7 +342,7 @@
   }
 
   .header_title {
-    margin-block-end: 100px;
+      margin-block-end: 100px;
   }
 
   .title_paragraph {
@@ -409,13 +409,12 @@
   }
 
   .header_title {
-    margin-block-end: 53px;
+      margin-block-end: 53px;
   }
 
   .title {
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+      font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
-
 
   .title_paragraph {
       max-width: 355px;
@@ -474,11 +473,7 @@
       min-height: 667px;
   }
 
-
   .footer_title {
-    margin-block-start: 20px;
+      margin-block-start: 20px;
   }
-
-
-
 }
