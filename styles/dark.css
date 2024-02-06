@@ -34,12 +34,6 @@
   --text_button: #ff0070;
 }
 
-.theme_dark .rec:before {
-  display: block;
-}
 
-.theme_dark .rec:after {
-  display: block;
-}
 
 
