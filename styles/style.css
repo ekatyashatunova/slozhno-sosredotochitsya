@@ -355,30 +355,22 @@
   .card {
       display: flex;
       flex-direction: column;
-      gap: 20px;
   }
 
-  .content_what_item {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
+  .content_how {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
   }
 
   .content_heading,
   .content_heading-how {
       max-width: 236px;
   }
-
-  .footer_title {
-      margin-block-start: 20px;
-      margin-block-end: 20px;
-  }
 }
 
 @media (width < 768px) {
   .header {
       min-height: 668px;
-      height: 100vh;
       padding-top: 10px;
       padding-left: 10px;
       padding-right: 10px;
@@ -396,13 +388,7 @@
   }
 
   .rec:before {
-      right: 9px;
       top: 6px;
-  }
-
-  .rec:after {
-      top: 0px;
-      right: 28px;
   }
 
   .header__theme-menu {
@@ -426,16 +412,9 @@
   .content_why {
       display: flex;
       flex-direction: column;
-      gap: 20px;
       padding-left: 10px;
       padding-right: 10px;
       margin-block-end: 50px;
-  }
-
-  .content_card {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
   }
 
   .content_what {
@@ -473,9 +452,5 @@
 
   .footer {
       min-height: 667px;
-  }
-
-  .footer_title {
-      margin-block-start: 20px;
   }
 }
